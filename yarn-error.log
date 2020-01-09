@@ -1,0 +1,52 @@
+Arguments: 
+  /home/canibanoglu/.asdf/installs/nodejs/12.13.0/bin/node /home/canibanoglu/.yarn/bin/yarn.js add vs-textmate
+
+PATH: 
+  /home/canibanoglu/.asdf/installs/nodejs/12.13.0/bin:/home/canibanoglu/.asdf/installs/nodejs/12.13.0/.npm/bin:/home/canibanoglu/.yarn/bin:/home/canibanoglu/.config/yarn/global/node_modules/.bin:/home/canibanoglu/.asdf/shims:/home/canibanoglu/.asdf/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/canibanoglu/.yarn/bin:/home/canibanoglu/.config/yarn/global/node_modules/.bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/Resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/ManagementStudio/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/can/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Calibre2/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NGX:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft/Web Platform Installer/:/mnt/c/Program Files/cmder:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/OpenSSL-Win64/bin:/mnt/c/Users/can/AppData/Local/Programs/Python/Python35/:/mnt/c/Users/can/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/can/AppData/Local/atom/bin:/mnt/c/Users/can/AppData/Roaming/npm:/mnt/c/Users/can/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/can/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/can/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/DataGrip 2019.2.5/bin:/mnt/c/Program Files/JetBrains/CLion 2019.2.4/bin:/mnt/c/MinGW/bin:/mnt/c/cygwin64/bin:/mnt/c/Program Files/cmder:/mnt/c/Users/can/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/can/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/can/AppData/Local/Keybase/
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vs-textmate: Not found
+      at Request.params.callback [as _callback] (/home/canibanoglu/.yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/home/canibanoglu/.yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/home/canibanoglu/.yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/home/canibanoglu/.yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "syli",
+    "version": "0.0.1",
+    "description": "Syntax highlighting in unifiedjs",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "keywords": [
+      "syntax",
+      "highlighting",
+      "unifiedjs",
+      "ast"
+    ],
+    "author": "Can Ibanoglu",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

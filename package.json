@@ -1,0 +1,21 @@
+{
+  "name": "syli",
+  "version": "0.0.1",
+  "description": "Syntax highlighting in unifiedjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "syntax",
+    "highlighting",
+    "unifiedjs",
+    "ast"
+  ],
+  "author": "Can Ibanoglu",
+  "license": "MIT",
+  "dependencies": {
+    "vscode-textmate": "^4.4.0"
+  }
+}
