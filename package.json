@@ -4,6 +4,7 @@
   "description": "Syntax highlighting in unifiedjs",
   "main": "index.js",
   "scripts": {
+    "remark": "node remark.js",
     "start": "node index.js",
     "test": "test"
   },
@@ -16,6 +17,10 @@
   "author": "Can Ibanoglu",
   "license": "MIT",
   "dependencies": {
+    "first-mate": "^7.4.1",
+    "remark-parse": "^7.0.2",
+    "unified": "^8.4.2",
+    "unified-stream": "^1.0.5",
     "vscode-textmate": "^4.4.0"
   }
 }
